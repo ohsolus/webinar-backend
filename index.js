@@ -102,11 +102,14 @@ app.listen(PORT, () => {
 dotenv.config();
 
 const db = mysql.createConnection({
-  host: "viaduct.proxy.rlwy.net",
+  //host: "viaduct.proxy.rlwy.net",
+  host: "roundhouse.proxy.rlwy.net",
   user: "root",
-  password: "RJQctlthhhvjqNUYFvUjrrlormUleQhV",
+  //password: "RJQctlthhhvjqNUYFvUjrrlormUleQhV",
+  password: "cYGjUjuFiTJgmVZnGHhFyMPesvjaoOBR",
   database: "railway",
-  port: 34690,
+  //port: 34690,
+  port: 13150,
 });
 
 //app.get("/", (req, res) => {
